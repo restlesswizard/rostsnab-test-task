@@ -1,0 +1,63 @@
+.menu {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	/* align-items: center; */
+}
+
+.menu__item:not(:first-child) {
+	margin-left: 30px;
+}
+
+.menu__item__link {
+	font-size: 17px;
+	font-weight: 400;
+	text-decoration: none;
+	color: white;
+}
+
+.logo {
+	margin-right: 50px;
+}
+
+.actions {
+	display: flex;
+}
+
+.call-me {
+	display: flex;
+	align-items: center;
+}
+
+.call-me__phone {
+	color: white;
+	font-weight: 600;
+	font-size: 17px;
+	margin-right: 25px;
+}
+
+.call-me__callback-btn {
+	width: 177px;
+	height: 45px;
+	border-radius: 10px 10px 10px 0;
+	cursor: pointer;
+	background-color: #434343;
+	color: #FF791F;
+	font-size: 15px;
+	font-weight: 600;
+	border: none;
+	margin-right: 32px;
+	transition: .4s ease-in-out;
+}
+
+.call-me__callback-btn:hover {
+	background-color: #FF791F;
+	color: white;
+}
+
+.search {
+	background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+}

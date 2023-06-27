@@ -1,6 +1,9 @@
 /* Imports */
 @import url(./css/reset.css);
 @import url(./css/header.css);
+@import url(./css/menu.css);
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap');
 
 /* Additional properties */
 .main-container {
@@ -14,4 +17,10 @@
 	margin-left: 330px;
 	margin-right: 330px;
 	width: 1260px;
+}
+
+.wrapper_header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
