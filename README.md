@@ -1,2 +1,2 @@
 # rostsnab-test-task
-Employment test task
+Employment test task RostSnab
