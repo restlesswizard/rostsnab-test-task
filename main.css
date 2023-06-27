@@ -1,0 +1,10 @@
+/* Imports */
+@import url(./css/reset.css);
+
+/* Additional properties */
+.main-container {
+	background-color: #F3F5F6;
+	width: 1920px;
+	border-radius: 20px;
+	height: 3419px;
+}
