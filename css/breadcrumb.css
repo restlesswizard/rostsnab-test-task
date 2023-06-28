@@ -1,0 +1,23 @@
+.breadcrumb {
+	margin-top: 26px;
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+}
+
+.breadcrumb__item:not(:last-child)::after {
+	content: '¬';
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+.breadcrumb__item:last-child {
+	color: #7C7C7C;
+	font-size: 15px;
+}
+
+.breadcrumb__item__link {
+	text-decoration: none;
+	color: #454545;
+	font-size: 15px;
+}
