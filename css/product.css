@@ -1,0 +1,154 @@
+.product-gallery {
+	display: flex;
+	flex-direction: column;
+}
+
+.product-gallery__item {
+	width: 88px;
+	height: 88px;
+}
+
+.product-gallery__item:not(:first-child) {
+	margin-top: 16px;
+}
+
+.product-photo {
+	border-radius: 12px 12px 12px 0;
+	margin-left: 29px;
+}
+
+.product-info {
+	margin-left: 50px;
+	align-self: flex-start;
+	margin-top: 33px;
+}
+
+.product-info__price_title {
+	font-size: 20px;
+	font-weight: 500;
+	margin: 0;
+}
+
+.product-info__price-factors {
+	display: flex;
+	margin-top: 22px;
+}
+
+.product-info__price-factors__factor {
+	display: flex;
+	align-items: center;
+}
+
+.product-info__price-factors__factor:not(:first-child) {
+	margin-left: 53px;
+}
+
+.product-info__price-factors__factor > span {
+	margin-left: 9px;
+}
+
+
+
+
+.product-contacts__price-and-email {
+	display: flex;
+	align-items: center;
+	margin-top: 45px;
+}
+
+.product-contacts__price-btn {
+	width: 215px;
+	height: 45px;
+	border-radius: 10px 10px 10px 0;
+	background-color: #FF791F;
+	border: none;
+	color: white;
+	font-size: 15px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: .4s ease-in-out;
+	margin-left: 6px;
+}
+
+.product-contacts__price-btn:hover {
+	background-color: #434343;
+	color: #FF791F;
+}
+
+.product-contacts__email {
+	text-decoration: none;
+	margin-left: 29px;
+	color: #2D81FF;
+	font-weight: 600;
+	font-size: 15px;
+	transition: .4s ease-in-out;
+}
+
+.product-contacts__email:hover {
+	color: #61A0FF;
+}
+
+.product-contacts__phone {
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+	margin-left: 6px;
+}
+
+.product-contacts__phone-number {
+	font-weight: 600;
+	font-size: 19px;
+}
+
+.product-contacts__text {
+	font-weight: 400;
+	font-size: 14px;
+	margin-left: 18px;
+}
+
+.product-contacts__phone:last-child > span > span {
+	color: #758B50;
+}
+
+
+
+.personal-offer {
+	display: flex;
+	align-items: center;
+	margin-top: 51px;
+}
+
+.personal-offer__text {
+	font-size: 15px;
+	font-weight: 400;
+	width: 286px;
+	text-align: right;
+	margin: 0;
+	padding-left: 6px;
+}
+
+.personal-offer__request-offer-btn {
+	margin-left: 16px;
+	background-color: transparent;
+	width: 144px;
+	height: 45px;
+	border: 1px solid #66A300;
+	border-radius: 10px 10px 10px 0;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	font-weight: 600;
+	font-size: 15px;
+	color: #66A300;
+	transition: .4s ease-in-out;
+	margin-left: 30px;
+}
+
+.personal-offer__request-offer-btn:hover {
+	color: white;
+	background-color: #66A300;
+}
+
+.gift-box {
+	margin-left: -25px;
+}

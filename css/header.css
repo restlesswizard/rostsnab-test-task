@@ -5,4 +5,5 @@ header {
 	border-top-right-radius: 20px;
 	display: flex;
 	justify-content: center;
+	width: 100%;
 }
