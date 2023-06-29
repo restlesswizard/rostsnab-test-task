@@ -34,16 +34,16 @@
 	margin-top: 22px;
 }
 
-.product-info__price-factors__factor {
+.product-info__price-factors-factor {
 	display: flex;
 	align-items: center;
 }
 
-.product-info__price-factors__factor:not(:first-child) {
+.product-info__price-factors-factor:not(:first-child) {
 	margin-left: 53px;
 }
 
-.product-info__price-factors__factor > span {
+.product-info__price-factors-factor > span {
 	margin-left: 9px;
 }
 
@@ -151,4 +151,40 @@
 
 .gift-box {
 	margin-left: -25px;
+}
+
+
+
+
+.product-props {
+	display: flex;
+	margin-top: 47px;
+}
+
+.product-props__info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 232px;
+}
+
+.product-props__info:not(:first-child) {
+	margin-left: 25px;
+}
+
+.product-props__title {
+	font-weight: 500;
+	font-size: 16px;
+	color: #696969;
+}
+
+.product-props__text {
+	font-weight: 600;
+	font-size: 19px;
+	margin-top: 7px;
+	text-align: center;
+}
+
+.product-props__text > sup {
+	font-size: 12px;
 }

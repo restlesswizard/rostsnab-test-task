@@ -50,3 +50,7 @@ main {
 	display: flex;
 	align-items: center;
 }
+
+.wrapper_props {
+	display: flex;
+}
