@@ -6,6 +6,7 @@
 .product-gallery__item {
 	width: 88px;
 	height: 88px;
+	cursor: pointer;
 }
 
 .product-gallery__item:not(:first-child) {
