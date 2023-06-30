@@ -1,0 +1,31 @@
+.services {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 45px
+}
+
+.services__item {
+	width: 406px;
+	height: 129px;
+	background-color: white;
+	border-radius: 10px 10px 10px 0;
+	display: flex;
+	align-items: center;
+}
+
+.services__item-img {
+	margin-left: 21px;
+}
+
+.services__item-text {
+	font-size: 17px;
+	font-weight: 400;
+	/* width: 200px; */
+	margin-left: 30px;
+
+}
+
+.services__item:first-child > .services__item-text {
+	width: 197px;
+}

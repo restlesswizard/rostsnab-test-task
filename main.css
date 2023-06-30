@@ -4,6 +4,7 @@
 @import url(./css/menu.css);
 @import url(./css/breadcrumb.css);
 @import url(./css/product.css);
+@import url(./css/services.css);
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap');
 
@@ -53,4 +54,9 @@ main {
 
 .wrapper_props {
 	display: flex;
+}
+
+.wrapper_services {
+	display: flex;
+	justify-content: space-between;
 }
