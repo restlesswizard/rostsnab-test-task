@@ -1,0 +1,77 @@
+.related-info {
+	margin-top: 52px;
+}
+
+.related-info__menu {
+	list-style-type: none;
+	display: flex;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.related-info__menu-item {
+	/* padding: 0 30px 0 30px; */
+	text-align: center;
+	font-size: 19px;
+	cursor: pointer;
+}
+
+.related-info__menu-item:first-child {
+	padding: 0 30px 0 0;
+	
+}
+
+.related-info__menu-item:first-child {
+	font-weight: 600;
+}
+
+.related-info__menu-item:last-child {
+	font-weight: 400;
+	color: #696969;
+}
+
+.related-info__menu-item:first-child::after {
+	display: block;
+	content: '';
+	width: 212px;
+	height: 2px;
+	background-color: #FF791F;
+	margin-top: 16px;
+}
+
+.related-info__table {
+	width: 100%;
+	border-spacing: 0;	
+}
+
+.related-info__table-row {
+	height: 60px;
+}
+
+.related-info__table-row > td {
+	background-color: white;
+	font-size: 15px;
+}
+
+.related-info__table-row > td {
+	border-right: 1px solid #F3F5F6;
+}
+
+.related-info__table-row > td {
+	border-left: 1px solid #F3F5F6;
+}
+
+.related-info__table-row:nth-child(even) > td {
+	background-color: #EEEEEE;
+}
+
+.related-info__table-row ~ td {
+	border-top: 1px solid #F3F5F6;
+  border-bottom: 1px solid #F3F5F6;
+	padding: 0;
+}
+
+
+.related-info__table-row > td > span {
+	margin-left: 33px;
+}
