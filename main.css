@@ -8,6 +8,7 @@
 @import url(./css/related-info.css);
 @import url(./css/filtes.css);
 @import url(./css/related-products.css);
+@import url(./css/footer.css);
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap');
 
@@ -62,4 +63,9 @@ main {
 .wrapper_services {
 	display: flex;
 	justify-content: space-between;
+}
+
+.wrapper_footer {
+	margin-left: auto;
+  margin-right: auto;
 }
