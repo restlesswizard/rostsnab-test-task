@@ -399,6 +399,22 @@ main {
 		margin-left: 0;
 	}
 
+
+
+	.product-props {
+		flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 16px;
+	}
+
+	.product-props__info:not(:first-child) {
+    margin-left: 0
+	}
+
+	.product-props__text {
+		text-align: left;
+	}
+
 	/* .menu__item > a {
 		font-size: 12px;
 	}
