@@ -415,6 +415,25 @@ main {
 		text-align: left;
 	}
 
+
+	.services {
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+
+	.services__item {
+		width: 350px;
+    height: 90px;
+	}
+
+	.services__item-img {
+		width: 90px;
+	}
+
+	.services__item:last-child {
+		flex-grow: 1;
+	}
+
 	/* .menu__item > a {
 		font-size: 12px;
 	}
