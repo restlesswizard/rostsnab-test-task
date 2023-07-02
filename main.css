@@ -449,6 +449,11 @@ main {
     margin-left: 8px;
 	}
 
+	.filters__row-item {
+		padding: 0 16px;
+		height: 32px;
+	}
+
 	/* .menu__item > a {
 		font-size: 12px;
 	}
