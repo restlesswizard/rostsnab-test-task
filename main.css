@@ -454,6 +454,34 @@ main {
 		height: 32px;
 	}
 
+
+
+	.related-products__title {
+		font-size: 24px;
+	}
+
+	.related-products-list {
+		flex-wrap: wrap;
+		gap: 12px;
+	}
+
+	.related-products-wrapper {
+		width: 295px;
+	}
+
+	.related-products-list__item {
+		width: 364px;
+	}
+
+	.related-product-props:not(:first-child) {
+    margin-top: 4px;
+	}
+
+	.related-product__price-btn {
+		width: 292px;
+		margin-top: 12px;
+	}
+
 	/* .menu__item > a {
 		font-size: 12px;
 	}
