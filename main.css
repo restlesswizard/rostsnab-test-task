@@ -482,6 +482,42 @@ main {
 		margin-top: 12px;
 	}
 
+	
+
+
+	.wrapper_footer {
+		align-self: center;
+	}
+
+	footer > * {
+    margin-top: 24px;
+	}
+
+	.footer-items {
+		width: 246px;
+	}
+
+	.footer-items:first-child {
+    margin-left: 24px;
+	}
+
+	.footer-items:not(:first-child) {
+    margin-left: 15px;
+	}
+
+	.footer-items__link {
+		font-size: 13px;
+	}
+
+	.footer-contacts > img {
+		margin-top: 94px;
+		width: 246px;
+	}
+
+	.footer-items__item:not(:first-child) {
+    margin-top: 12px;
+	}
+
 	/* .menu__item > a {
 		font-size: 12px;
 	}
