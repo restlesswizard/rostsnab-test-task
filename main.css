@@ -434,6 +434,21 @@ main {
 		flex-grow: 1;
 	}
 
+
+
+	.related-info {
+		margin-top: 32px;
+	}
+
+	.related-info__table-row > td {
+    font-size: 13px;
+	}
+
+
+	.related-info__table-row > td > span {
+    margin-left: 8px;
+	}
+
 	/* .menu__item > a {
 		font-size: 12px;
 	}
