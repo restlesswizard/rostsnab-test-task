@@ -739,11 +739,16 @@ main {
 
 	.related-products-list {
 		flex-wrap: wrap;
+		justify-content: center;
 	}
 
 	.related-products-list__item,
 	.related-products-wrapper {
-		width: 100%;
+		width: 408px
+	}
+
+	.related-products-list__item:not(:first-child) {
+		margin-top: 8px;
 	}
 
 	.related-product-props:not(:first-child) {
