@@ -736,4 +736,23 @@ main {
 		font-size: 14px;
 	}
 
+
+	.related-products-list {
+		flex-wrap: wrap;
+	}
+
+	.related-products-list__item,
+	.related-products-wrapper {
+		width: 100%;
+	}
+
+	.related-product-props:not(:first-child) {
+    margin-top: 2px;
+	}
+
+	.related-product__price-btn {
+		margin-bottom: 16px;
+		width: 353px;
+		font-size: 18px;
+	}
 }
