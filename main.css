@@ -688,4 +688,29 @@ main {
 		width: 77px;
 	}
 
+
+	.product-props {
+    flex-wrap: wrap;
+    gap: 8px;
+	}
+
+	.product-props__info {
+		width: 96px;
+	}
+
+	.product-props__info:not(:first-child) {
+    margin-left: 0;
+	}
+
+	.product-props__info:last-child {
+		flex-grow: 1;
+		margin-left: 0;
+	}
+
+	.product-props__text {
+		font-size: 15px;
+	}
+
+
+
 }
