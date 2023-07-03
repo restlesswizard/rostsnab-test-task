@@ -730,4 +730,10 @@ main {
 		width: 64px;
 	}
 
+
+	.related-info__table-row > td > span {
+		margin-left: 0;
+		font-size: 14px;
+	}
+
 }
