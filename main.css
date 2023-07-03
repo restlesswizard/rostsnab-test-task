@@ -535,6 +535,10 @@ main {
 		margin: 0 10px 0 10px;
 	}
 
+	h1 {
+		font-size: 20px;
+	}
+
 	nav:has(> .menu) {
 		display: none;
 	}
@@ -554,4 +558,134 @@ main {
 	.logo {
 		width: 160px;
 	}
+
+	.wrapper_product_mobile {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.wrapper_product {
+
+		display: none;
+	}
+
+	.product-gallery {
+		flex-direction: row;
+		width: 562px;
+    justify-content: space-between;
+		margin-top: 16px;
+	}
+
+
+
+	.product-gallery {
+		flex-direction: row;
+		width: 562px;
+    justify-content: space-between;
+		margin-top: 16px;
+	}
+
+	.product-gallery__item {
+		width: 66px;
+		height: 66px;
+	}
+
+	.product-gallery__item:not(:first-child) {
+		margin-top: 0;
+	}
+
+	.product-photo {
+		margin-left: 0;
+	}
+
+	.product_mobile_positioning > img,
+	.product_mobile_positioning > .product-gallery {
+		width: 100%;
+	}
+
+	.product-info {
+		margin-top: 32px;
+		margin-left: 0;
+		align-self: center;
+	}
+
+	.product-info__price_title {
+		font-size: 18px;
+	}
+
+	.product-info__price-factors {
+		justify-content: space-between;
+	}
+
+	.product-info__price-factors-factor > img {
+		width: 40px;
+		height: 40px;
+	}
+
+	.product-info__price-factors-factor:not(:first-child) {
+    margin-left: 16px;
+	}
+
+	.product-info__price-factors-factor > span {
+    margin-left: 4px;
+		font-size: 16px;
+	}
+
+
+	.product-contacts__price-and-email {
+		display: flex;
+		flex-direction: column;
+		margin-top: 16px;
+	}
+
+	.product-contacts__email {
+		margin-left: 0;
+    font-size: 22px;
+		margin-top: 24px;
+	}
+
+	.product-contacts__text {
+		margin-left: 0;
+		font-size: 18px;
+	}
+
+	.product-contacts__price-btn {
+		font-size: 25px;
+		width: 100%;
+		height: 64px;
+		margin-left: 0;
+	}
+
+
+	.product-contacts__phone {
+		display: flex;
+		flex-direction: column;
+		margin-left: 0;
+	}
+
+	.product-contacts__phone-number {
+		font-size: 32px;
+	}
+
+	.personal-offer {
+		display: flex;
+		flex-direction: column;
+		margin-top: 18px;
+	}
+
+	.personal-offer__text {
+		padding: 0;
+		text-align: center
+	}
+
+	.personal-offer__request-offer-btn {
+		margin-top: 24px;
+    width: 175px;
+    font-size: 18px;
+	}
+
+	.gift-box {
+		width: 77px;
+	}
+
 }
